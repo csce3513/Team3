@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:48:06</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:49:03</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:51:16</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:51:48</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:52:34</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:53:30</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:58:37</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-16T03:59:35</TestDate>
+      <Status>Success</Status>
+      <TotalFailures>0</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="Testing">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:48:06</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:49:03</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:51:16</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:51:48</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:52:34</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:53:30</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:58:37</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-16T03:59:35</TestDate>
+          <Status>Success</Status>
+          <TotalFailures>0</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="Test">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:48:06</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:49:03</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:51:16</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:51:48</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:52:34</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:53:30</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:58:37</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-16T03:59:35</TestDate>
+              <Status>Success</Status>
+              <TotalFailures>0</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="TestCase">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:48:06</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:49:03</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:51:16</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:51:48</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:52:34</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:53:30</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="Fail">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:52:34</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test failed</Message>
+                  <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail () [0x00000] in &lt;filename unknown&gt;:0 
+  at Testing.Test.Fail () [0x00000] in /Users/Nick/Documents/Team3/Dawn of The Sticks/Testing/Test.cs:21 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:53:30</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test failed</Message>
+                  <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail () [0x00000] in &lt;filename unknown&gt;:0 
+  at Testing.Test.Fail () [0x00000] in /Users/Nick/Documents/Team3/Dawn of The Sticks/Testing/Test.cs:21 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:58:37</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test failed</Message>
+                  <StackTrace>  at NUnit.Framework.Assert.Fail (System.String message, System.Object[] args) [0x00000] in &lt;filename unknown&gt;:0 
+  at NUnit.Framework.Assert.Fail () [0x00000] in &lt;filename unknown&gt;:0 
+  at Testing.Test.Fail () [0x00000] in /Users/Nick/Documents/Team3/Dawn of The Sticks/Testing/Test.cs:11 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestReload">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:53:30</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:58:37</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:59:35</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestShot">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:58:37</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-16T03:59:35</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

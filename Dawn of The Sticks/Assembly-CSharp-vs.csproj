@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\MenuObject.cs" />
      <Compile Include="Assets\Scripts\S_Bullet.cs" />
      <Compile Include="Assets\Scripts\S_Charac_Next.cs" />
+     <Compile Include="Assets\Scripts\S_Credits.cs" />
      <Compile Include="Assets\Scripts\S_Player.cs" />
      <Compile Include="Assets\Scripts\S_Prev_Charac.cs" />
      <Compile Include="Assets\Scripts\S_Sound_Destroy.cs" />

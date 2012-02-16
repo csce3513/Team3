@@ -7,8 +7,8 @@ public class S_Player : MonoBehaviour {
 	public float ladderSpeed;
 	public GameObject P_Bullet;
 	public GameObject Reload_Sound;
-	public float currentammo;
-	public float ammoleft;
+	static public float currentammo;
+	static public float ammoleft;
 	public float fallSpeed;
 	private float reloadtime;
 	static public float firerate;
@@ -23,6 +23,8 @@ public class S_Player : MonoBehaviour {
 	void Start () 
 	{
 		DoorOpen.renderer.enabled = false;
+		currentammo = 10;
+		ammoleft = 20;
 		reloadwanted = 0;
 		float originaldirection = 1;
 		reloadtime = 0;
@@ -41,63 +43,9 @@ public class S_Player : MonoBehaviour {
 		float amttomove = Input.GetAxis("Horizontal") * playerSpeed * Time.deltaTime;
 		float laddermove = Input.GetAxis("Vertical") * ladderSpeed * Time.deltaTime;
 		
-		if ((transform.position.x <= -5.8f && amttomove < 0) || (transform.position.x >= 5.8f && amttomove > 0));
-			//do nothing this keeps the player from leaving the edges of the map
-		else if (transform.position.y >= -3f && transform.position.y <= 4.03f)
+		if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
 		{
-			if((transform.position.x >= -1.8f && transform.position.x <= -1.26f) && (transform.position.y <= 0.49f))
-			{
-				transform.Translate(Vector3.up * laddermove);
-				
-					if(transform.position.y > .486f && transform.position.y < 1.5f)
-						{
-						transform.position= new Vector3(transform.position.x, 0.486f, 0);
-						}
-					else if(transform.position.y < -3f)
-						{
-						transform.position= new Vector3(transform.position.x, -3f, 0);
-						}
-					if(transform.position.y == -3f || transform.position.y >= 0.486f)
-						transform.Translate(Vector3.right * amttomove);
-			}
-			
-			else if((transform.position.x >= 3.35f && transform.position.x <= 3.93) && (transform.position.y >= .486f))
-				{
-				transform.Translate(Vector3.up * laddermove);
-				
-					if(transform.position.y > 4.03f && transform.position.y <= 4.1f)
-						{
-						transform.position = new Vector3(transform.position.x, 4.03f, 0);
-						}
-					else if(transform.position.y < .486f)
-						{
-						transform.position = new Vector3(transform.position.x, .486f, 0);
-						}
-					if(transform.position.y == .486f || transform.position.y >= 4.03f)
-						transform.Translate(Vector3.right * amttomove);
-				}
-			
-			else //if (transform.position.y == -3f || transform.position.y == 0.486f || transform.position.y == 4.03f)
-			{
-				if (amttomove > 0)
-					bulletdirection = 1;
-				else if (amttomove < 0)
-					bulletdirection = 2;
-				
-				transform.Translate(Vector3.right * amttomove);
-			}
-			
-			if(transform.position.x < -3.2f && transform.position.y < 0.49f && transform.position.y > -3f)
-			{
-				transform.Translate(Vector3.up * -1f * fallSpeed * Time.deltaTime); 
-			}
-			
-			if(transform.position.y < -3f)
-			{
-				transform.position = new Vector3(transform.position.x, -3f, 0);
-			}
-			
-			
+			PlayerMovement(amttomove, laddermove, fallSpeed);
 		}
 		
 		//move the camera
@@ -116,7 +64,105 @@ public class S_Player : MonoBehaviour {
 		//shoot
 		if (Input.GetKeyDown("space") && currentammo > 0)
 		{
-			//creates the bullet
+			ShootGun();
+		}
+		
+		//reload
+		else if(Input.GetKeyDown("r") && ammoleft > 0 && currentammo < 10)
+		{
+			reloadwanted = 1;
+			reloadtime = 0;
+			Instantiate(Reload_Sound, transform.position, transform.rotation);
+		}
+		
+		firerate += Time.deltaTime;
+		reloadtime += Time.deltaTime;
+		
+		if (reloadtime > .8f && reloadwanted == 1)
+				{
+					currentammo = ReloadGun(currentammo);
+				}
+		
+		//open the door
+		if(zombieskilled == 10)
+		{
+			OpenDoor();
+		}
+	}
+	
+	void PlayerMovement(float horizontalmov, float verticalmov, float falling)
+	{
+		if ((transform.position.x <= -5.8f && horizontalmov < 0) || (transform.position.x >= 5.8f && horizontalmov > 0));
+			//do nothing this keeps the player from leaving the edges of the map
+		
+		else if (transform.position.y >= -3f && transform.position.y <= 4.03f)
+		{
+			//climb the ladder to the second level
+			if((transform.position.x >= -1.8f && transform.position.x <= -1.26f) && (transform.position.y <= 0.49f))
+			{
+				transform.Translate(Vector3.up * verticalmov);
+				
+					if(transform.position.y > .486f && transform.position.y < 1.5f)
+						{
+						transform.position= new Vector3(transform.position.x, 0.486f, 0);
+						}
+					else if(transform.position.y < -3f)
+						{
+						transform.position= new Vector3(transform.position.x, -3f, 0);
+						}
+					if(transform.position.y == -3f || transform.position.y >= 0.486f)
+						transform.Translate(Vector3.right * horizontalmov);
+			}
+			
+			//climb the ladder to the top level
+			else if((transform.position.x >= 3.35f && transform.position.x <= 3.93) && (transform.position.y >= .486f))
+				{
+				transform.Translate(Vector3.up * verticalmov);
+				
+					if(transform.position.y > 4.03f && transform.position.y <= 4.1f)
+						{
+						transform.position = new Vector3(transform.position.x, 4.03f, 0);
+						}
+					else if(transform.position.y < .486f)
+						{
+						transform.position = new Vector3(transform.position.x, .486f, 0);
+						}
+					if(transform.position.y == .486f || transform.position.y >= 4.03f)
+						transform.Translate(Vector3.right * horizontalmov);
+				}
+			
+			//move horizontally
+			else
+			{
+				if (horizontalmov > 0)
+					bulletdirection = 1;
+				else if (horizontalmov < 0)
+					bulletdirection = 2;
+				
+				transform.Translate(Vector3.right * horizontalmov);
+			}
+			
+			//calculate if falling
+			if(transform.position.x < -3.2f && transform.position.y < 0.49f && transform.position.y > -3f)
+			{
+				transform.Translate(Vector3.up * -1f * falling * Time.deltaTime);
+				//damage health
+			}
+			
+			//fix position if in ground
+			if(transform.position.y < -3f)
+			{
+				transform.position = new Vector3(transform.position.x, -3f, 0);
+			}
+			
+			
+		}
+	}
+	
+	//Shoots the Gun
+	void ShootGun()
+	{
+		//creates the bullet
 			Vector3 position = new Vector3(transform.position.x + transform.localScale.x / 2, transform.position.y, transform.position.z);
 			
 			if (firerate > .2f)
@@ -125,36 +171,24 @@ public class S_Player : MonoBehaviour {
 			Instantiate(P_Bullet, position, transform.rotation);
 			currentammo -= 1;
 			}
-		}
-		
-		//reload
-		else if(Input.GetKeyDown("r") && ammoleft > 0)
-		{
-			reloadwanted = 1;
-			reloadtime = 0;
-			Instantiate(Reload_Sound, transform.position, transform.rotation);
-		}
-		
-		firerate += Time.deltaTime;
-		
-		reloadtime += Time.deltaTime;
-		
-		print(reloadtime +" " + reloadwanted);
-		
-		if (reloadtime > .8f && reloadwanted == 1)
-				{
-					while(ammoleft > 0 && currentammo < 10)
+	}
+	
+	//Reloads the Gun
+	float ReloadGun(float ammoingun)
+	{
+		while(ammoleft > 0 && ammoingun < 10)
 					{
-						currentammo += 1;
+					ammoingun += 1;
 					ammoleft -= 1;
 					}
-					reloadwanted = 0;
-				}
-		
-		//open the door
-		if(zombieskilled == 10)
-		{
-			DoorOpen.renderer.enabled = true;
-		}
+		reloadwanted = 0;
+		return ammoingun;
 	}
+	
+	//"Opens" the Exit Door
+	void OpenDoor()
+	{
+		DoorOpen.renderer.enabled = true;	
+	}
+	
 }
