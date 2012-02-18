@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\S_Prev_Charac.cs" />
      <Compile Include="Assets\Scripts\S_Sound_Destroy.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
+     <None Include="Assets\High Scores\HighScores.txt" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Library\ScriptAssemblies\Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>

@@ -75,6 +75,11 @@ public class S_Player : MonoBehaviour {
 			Instantiate(Reload_Sound, transform.position, transform.rotation);
 		}
 		
+		else if(Input.GetKeyDown("escape"))
+		{
+			Application.Quit();
+		}
+		
 		firerate += Time.deltaTime;
 		reloadtime += Time.deltaTime;
 		
@@ -174,12 +179,12 @@ public class S_Player : MonoBehaviour {
 	}
 	
 	//Reloads the Gun
-	float ReloadGun(float ammoingun)
+	public float ReloadGun(float ammoingun)
 	{
 		while(ammoleft > 0 && ammoingun < 10)
 					{
 					ammoingun += 1;
-					ammoleft -= 1;
+				    ammoleft -= 1;
 					}
 		reloadwanted = 0;
 		return ammoingun;
