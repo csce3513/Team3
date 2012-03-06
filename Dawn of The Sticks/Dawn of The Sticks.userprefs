@@ -1,21 +1,24 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StartGame.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MenuObject.cs">
     <Files>
-      <File FileName="Assets/Scripts/S_Player.cs" Line="4" Column="12" />
-      <File FileName="Assets/Scripts/StartGame.cs" Line="41" Column="1" />
+      <File FileName="Assets/Scripts/S_HighScore.cs" Line="33" Column="15" />
+      <File FileName="Assets/Scripts/S_SubmitName.cs" Line="36" Column="24" />
+      <File FileName="Assets/Scripts/MenuObject.cs" Line="31" Column="4" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
+            <Node name="References" expanded="True" />
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="StartGame.cs" selected="True" />
+                <Node name="MenuObject.cs" selected="True" />
               </Node>
+              <Node name="SharpUnit" expanded="True" />
+              <Node name="Tests" expanded="True" />
             </Node>
           </Node>
-          <Node name="Testing" expanded="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">
@@ -23,11 +26,6 @@
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />
-      </Pad>
-      <Pad Id="MonoDevelop.NUnit.TestPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" selected="True" />
-        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

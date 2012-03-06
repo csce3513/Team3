@@ -51,12 +51,27 @@
      <Compile Include="Assets\Scripts\S_Bullet.cs" />
      <Compile Include="Assets\Scripts\S_Charac_Next.cs" />
      <Compile Include="Assets\Scripts\S_Credits.cs" />
+     <Compile Include="Assets\Scripts\S_Game_Over.cs" />
+     <Compile Include="Assets\Scripts\S_HUD.cs" />
+     <Compile Include="Assets\Scripts\S_HighScore.cs" />
      <Compile Include="Assets\Scripts\S_Player.cs" />
+     <Compile Include="Assets\Scripts\S_PlayerZombieCollision.cs" />
      <Compile Include="Assets\Scripts\S_Prev_Charac.cs" />
      <Compile Include="Assets\Scripts\S_Sound_Destroy.cs" />
+     <Compile Include="Assets\Scripts\S_Store.cs" />
+     <Compile Include="Assets\Scripts\S_SubmitName.cs" />
      <Compile Include="Assets\Scripts\StartGame.cs" />
-     <None Include="Assets\High Scores\HighScores.txt" />
+     <Compile Include="Assets\Scripts\ZombySpawner.cs" />
+     <Compile Include="Assets\Scripts\Zombys.cs" />
+     <Compile Include="Assets\SharpUnit\Unity3D_TestReporter.cs" />
+     <Compile Include="Assets\SharpUnit\Unity3D_TestRunner.cs" />
+     <Compile Include="Assets\Tests\Player_Test.cs" />
+     <None Include="Assets\High Scores\fileName.txt" />
+     <None Include="Assets\High Scores\fileScore.txt" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+ <Reference Include="Assets\SharpUnit\SharpUnit">
+ <HintPath>Assets\SharpUnit\SharpUnit.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
