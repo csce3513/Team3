@@ -1,8 +1,11 @@
 using UnityEngine;
+using System.IO;
 using System.Collections;
 
 public class StartGame : MonoBehaviour {
 
+	
+	
 void OnMouseOver () 
 	{
 		renderer.material.color = Color.red;
@@ -15,6 +18,11 @@ void OnMouseOver ()
 	
 	void OnMouseDown()
 	{
-		Application.LoadLevel("Level1");
+		//string username = "Nick";
+		//HighScores(username);
+		Application.LoadLevel("Level1");	
 	}
+
+	
 }
+

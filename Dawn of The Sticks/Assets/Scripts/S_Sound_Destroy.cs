@@ -17,4 +17,8 @@ public class S_Sound_Destroy : MonoBehaviour {
 		if (timealive > 1)
 			Destroy(gameObject);
 	}
+	public float gettimealive()
+	{
+		return timealive;
+	}
 }

@@ -6,6 +6,8 @@ public class MenuObject : MonoBehaviour {
 	public bool isQuit = false;
 	public bool isHighScore = false;
 	public bool isStartGame = false;
+	public bool isCredits = false;
+	public bool isSound = false;
 	
 	void OnMouseEnter()
 	{
@@ -33,6 +35,11 @@ public class MenuObject : MonoBehaviour {
 		{
 			Application.LoadLevel("Hero_Selection");
 			
+		}
+		
+		else if (isCredits)
+		{
+			Application.LoadLevel("Credits");
 		}
 	}
 }
