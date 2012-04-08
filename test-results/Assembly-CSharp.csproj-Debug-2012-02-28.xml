@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:07:03</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:09:39</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:11:55</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:12:50</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:14:45</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:15:20</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:16:39</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>3</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:17:37</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>3</TotalFailures>
+      <TotalSuccess>1</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:18:44</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>2</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:19:20</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:19:43</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T11:21:23</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T12:47:55</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T13:44:59</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T13:45:46</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T13:47:09</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>2</TotalFailures>
+      <TotalSuccess>3</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2012-02-28T13:47:53</TestDate>
+      <Status>Success Failure</Status>
+      <TotalFailures>1</TotalFailures>
+      <TotalSuccess>4</TotalSuccess>
+      <TotalIgnored>0</TotalIgnored>
+      <Time />
+      <Message>Child test failed</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="AssemblyCSharp">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:07:03</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:09:39</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:11:55</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:12:50</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:14:45</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:15:20</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:16:39</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>3</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:17:37</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>3</TotalFailures>
+          <TotalSuccess>1</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:18:44</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>2</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:19:20</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:19:43</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T11:21:23</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T12:47:55</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T13:44:59</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T13:45:46</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T13:47:09</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>2</TotalFailures>
+          <TotalSuccess>3</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2012-02-28T13:47:53</TestDate>
+          <Status>Success Failure</Status>
+          <TotalFailures>1</TotalFailures>
+          <TotalSuccess>4</TotalSuccess>
+          <TotalIgnored>0</TotalIgnored>
+          <Time />
+          <Message>Child test failed</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="TestNUnit">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:07:03</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:09:39</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:11:55</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:12:50</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:14:45</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:15:20</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:16:39</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>3</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:17:37</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>3</TotalFailures>
+              <TotalSuccess>1</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:18:44</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>2</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:19:20</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:19:43</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T11:21:23</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T12:47:55</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T13:44:59</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T13:45:46</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T13:47:09</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>2</TotalFailures>
+              <TotalSuccess>3</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2012-02-28T13:47:53</TestDate>
+              <Status>Success Failure</Status>
+              <TotalFailures>1</TotalFailures>
+              <TotalSuccess>4</TotalSuccess>
+              <TotalIgnored>0</TotalIgnored>
+              <Time />
+              <Message>Child test failed</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="TestBulletLeft">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:07:03</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 11</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:09:39</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 11</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:11:55</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 11</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:12:50</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 11</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:14:45</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:15:20</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:16:39</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:17:37</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:18:44</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:20</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:43</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:21:23</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T12:47:55</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:44:59</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:45:46</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:09</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:53</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: 2
+  But was:  10.0f
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at AssemblyCSharp.TestNUnit.TestBulletLeft() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 12</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+              <Tests />
+            </TestRecord>
+            <TestRecord Name="TestNULLName">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:07:03</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Expected: &lt;empty&gt;
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsEmpty(String aString)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 16</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:09:39</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>System.ArgumentException : The actual value must be an IEnumerable
+Parameter name: actual</Message>
+                  <StackTrace>   at NUnit.Framework.Constraints.CollectionConstraint.Matches(Object actual)
+   at NUnit.Framework.Constraints.EmptyConstraint.Matches(Object actual)
+   at NUnit.Framework.Constraints.NotConstraint.Matches(Object actual)
+   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotEmpty(String aString, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotEmpty(String aString)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 16</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:11:55</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>System.NullReferenceException : Object reference not set to an instance of an object.</Message>
+                  <StackTrace>   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 16</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:12:50</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>System.NullReferenceException : Object reference not set to an instance of an object.</Message>
+                  <StackTrace>   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 16</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:14:45</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Null
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 17</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:15:20</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 17</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:16:39</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 18</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:17:37</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 18</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:18:44</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 18</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:20</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 18</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:43</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 18</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:21:23</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 18</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T12:47:55</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 19</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:44:59</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:45:46</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: null
+  But was:  &lt;string.Empty&gt;
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 31</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:09</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: null
+  But was:  &lt;string.Empty&gt;
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestNULLName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 32</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:53</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+              <Tests />
+            </TestRecord>
+            <TestRecord Name="TestZeroScore">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:07:03</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:09:39</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:11:55</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:12:50</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:14:45</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:15:20</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:16:39</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:17:37</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:18:44</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:20</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:43</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:21:23</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T12:47:55</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:44:59</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:45:46</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:09</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:53</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+              <Tests />
+            </TestRecord>
+            <TestRecord Name="TestName">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:16:39</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 24</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:17:37</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check not null String
+  Expected: not null
+  But was:  null
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNotNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 24</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:18:44</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:20</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:19:43</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:21:23</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T12:47:55</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:44:59</TestDate>
+                  <Status>Failure</Status>
+                  <TotalFailures>1</TotalFailures>
+                  <TotalSuccess>0</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>  Check null String
+  Expected: null
+  But was:  &lt;string.Empty&gt;
+</Message>
+                  <StackTrace>   at NUnit.Framework.Assert.That(Object actual, Constraint constraint, String message, Object[] args)
+   at NUnit.Framework.Assert.IsNull(Object anObject, String message)
+   at AssemblyCSharp.TestNUnit.TestName() in c:\Users\thaocanhcut\Unity-Team3\TestScript\TestNUnit.cs:line 31</StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:45:46</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:09</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:53</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.01ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+              <Tests />
+            </TestRecord>
+            <TestRecord Name="TestBulletLeft1">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T11:21:23</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T12:47:55</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:44:59</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:45:46</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:09</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2012-02-28T13:47:53</TestDate>
+                  <Status>Success</Status>
+                  <TotalFailures>0</TotalFailures>
+                  <TotalSuccess>1</TotalSuccess>
+                  <TotalIgnored>0</TotalIgnored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+              <Tests />
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{CCABBF6F-C6EE-A77B-4C08-EABE86EDEBD9}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_0;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\BackButton.cs" />
+     <Compile Include="Assets\Scripts\HeroMenu.cs" />
+     <Compile Include="Assets\Scripts\HeroSelection.cs" />
+     <Compile Include="Assets\Scripts\MenuObject.cs" />
+     <Compile Include="Assets\Scripts\S_Bullet.cs" />
+     <Compile Include="Assets\Scripts\S_Charac_Next.cs" />
+     <Compile Include="Assets\Scripts\S_Credits.cs" />
+     <Compile Include="Assets\Scripts\S_Game_Over.cs" />
+     <Compile Include="Assets\Scripts\S_HUD.cs" />
+     <Compile Include="Assets\Scripts\S_HighScore.cs" />
+     <Compile Include="Assets\Scripts\S_Player.cs" />
+     <Compile Include="Assets\Scripts\S_PlayerZombieCollision.cs" />
+     <Compile Include="Assets\Scripts\S_Prev_Charac.cs" />
+     <Compile Include="Assets\Scripts\S_ShopGUI.cs" />
+     <Compile Include="Assets\Scripts\S_Sound_Destroy.cs" />
+     <Compile Include="Assets\Scripts\S_Store.cs" />
+     <Compile Include="Assets\Scripts\S_SubmitName.cs" />
+     <Compile Include="Assets\Scripts\StartGame.cs" />
+     <Compile Include="Assets\Scripts\ZombySpawner.cs" />
+     <Compile Include="Assets\Scripts\Zombys.cs" />
+     <Compile Include="Assets\SharpUnit\Unity3D_TestReporter.cs" />
+     <Compile Include="Assets\SharpUnit\Unity3D_TestRunner.cs" />
+     <Compile Include="Assets\Tests\Player_Test.cs" />
+     <None Include="Assets\High Scores\fileName.txt" />
+     <None Include="Assets\High Scores\fileScore.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+ <Reference Include="SharpUnit">
+ <HintPath>Assets\SharpUnit\SharpUnit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{FC0029CD-D7CB-3C6F-2EB4-0ADC911DCC67}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
