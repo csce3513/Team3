@@ -16,7 +16,13 @@ public class ZombySpawner : MonoBehaviour {
 	void Update () {
 		zombietime += Time.deltaTime;
 	
-		if(zombietime > 3 && zombiecount < 10){
+		if(S_Player.currentlevel == 1 && zombietime > 3 && zombiecount < 10){
+			Instantiate(zombie);
+			zombiecount++;
+			zombietime = 0;
+		}
+		else if(S_Player.currentlevel == 2 && zombietime > 2&& zombiecount < 20)
+		{
 			Instantiate(zombie);
 			zombiecount++;
 			zombietime = 0;

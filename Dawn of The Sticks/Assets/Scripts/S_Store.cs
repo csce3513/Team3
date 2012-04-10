@@ -16,7 +16,7 @@ public class S_Store : MonoBehaviour {
 	
 	void OnMouseExit()
 	{
-		renderer.material.color = Color.white;
+		renderer.material.color = Color.blue;
 	}
 	
 	void OnMouseDown()
@@ -35,12 +35,19 @@ public class S_Store : MonoBehaviour {
 		}
 		else if (isnextLevel)
 		{
-			//code to load level 2
-			//Application.LoadLevel("Level2");
+			LoadLevel();
 		}
 		else if (isGun1)
 		{
 			//code to buy new gun
 		}
+	}
+	
+	public static bool LoadLevel()
+	{
+		//code to load level 2
+			S_Player.currentlevel += 1;
+			Application.LoadLevel("Level" + S_Player.currentlevel);
+			return true;
 	}
 }

@@ -10,6 +10,8 @@ public class S_Player : MonoBehaviour {
 	private float shot;
 	static public float currentammo;
 	static public float ammoleft;
+	static public float currentlevel;
+	static public float cash;
 	public float fallSpeed;
 	private float playervisible;
 	private float reloadtime;
@@ -32,6 +34,7 @@ public class S_Player : MonoBehaviour {
 		Initial();
 		play = GameObject.FindGameObjectWithTag("Player");
 		float originaldirection = 1;
+		currentlevel = 1;
 		reloadtime = 0;
 		climbdirection = 0;
 		firerate = 0;
@@ -47,7 +50,7 @@ public class S_Player : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if(S_PlayerZombieCollision.state == S_PlayerZombieCollision.State.Playing)
+		if(S_PlayerZombieCollision.state != S_PlayerZombieCollision.State.Death)
 		{
 		float amttomove = Input.GetAxis("Horizontal") * playerSpeed * Time.deltaTime;
 		float laddermove = Input.GetAxis("Vertical") * ladderSpeed * Time.deltaTime;

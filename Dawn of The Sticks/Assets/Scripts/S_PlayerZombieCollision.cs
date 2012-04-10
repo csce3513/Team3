@@ -6,7 +6,8 @@ public class S_PlayerZombieCollision : MonoBehaviour {
 	public enum State
 	{
 		Death,
-		Playing
+		Playing,
+		Invincible
 	}
 	
 	static public State state;
@@ -36,9 +37,41 @@ public class S_PlayerZombieCollision : MonoBehaviour {
 							S_Player.climbdirection = 0;
 						}
 		GameObject.FindGameObjectWithTag("Player").transform.position = new Vector3(-5f, -2.5f, 0);
+		state = State.Invincible;
 		yield return new WaitForSeconds(1.5f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.enabled = true;
+		yield return new WaitForSeconds(0.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.yellow;
+		yield return new WaitForSeconds(.2f);
+		GameObject.FindGameObjectWithTag("PlayerRender").renderer.material.color = Color.blue;
 		state = State.Playing;
-		gameObject.renderer.enabled = true;
 	}
 	
 	void OnTriggerEnter(Collider otherObject)
@@ -46,6 +79,7 @@ public class S_PlayerZombieCollision : MonoBehaviour {
 		if(otherObject.tag == "Zombie" && state == State.Playing)
 		{
 			state = State.Death;
+			S_Player.playerscore -= 300;
 			S_Player.playerlives -= 1;
 			StartCoroutine(DestroyPlayer());
 			

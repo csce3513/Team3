@@ -38,8 +38,8 @@ public class S_SubmitName : MonoBehaviour
 	}
 	void OnGUI()
 	{
-		textInformation = GUI.TextArea(new Rect(0.35f*Screen.width,0.3f*Screen.height, 0.3f*Screen.width , 0.04f*Screen.height),textInformation);
-		if(GUI.Button(new Rect(0.45f*Screen.width,0.4f*Screen.height,
+		textInformation = GUI.TextArea(new Rect(0.35f*Screen.width,0.85f*Screen.height, 0.3f*Screen.width , 0.04f*Screen.height),textInformation);
+		if(GUI.Button(new Rect(0.75f*Screen.width,0.85f*Screen.height,
 		                       0.1f*Screen.width , 0.04f*Screen.height), "SUBMIT"))
 		{
 			submit = true;

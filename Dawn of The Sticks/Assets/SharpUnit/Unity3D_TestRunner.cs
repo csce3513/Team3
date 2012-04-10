@@ -21,8 +21,9 @@ public class Unity3D_TestRunner : MonoBehaviour
         TestSuite suite = new TestSuite();
 
         // Example: Add tests to suite
-        suite.AddAll(new Player_Test());
-
+        //suite.AddAll(new Player_Test());
+		//suite.AddAll(new Store_Test());
+		
         // Run the tests
         TestResult res = suite.Run(null);
 
