@@ -39,6 +39,8 @@ public class S_Player_OtherLevels : MonoBehaviour {
 		state = State.Playing;
 		//S_PlayerZombieCollision.state = S_PlayerZombieCollision.State.Playing;
 		S_Player.currentlevel = 2;
+		S_Player.ammoleft = 30;
+		S_Player.playerlives = 3;
 		play = GameObject.FindGameObjectWithTag("Player");
 		reloadtime = 0;
 		climbdirection = 0;
@@ -306,6 +308,8 @@ public class S_Player_OtherLevels : MonoBehaviour {
 		{
 			gameObject.transform.parent = null;
 			elevhit = 0;
+			transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+			transform.localScale= new Vector3(50, 25, 8);
 		}
 		
 		if (otherObject.tag	== "Zombie" && state == State.Playing)
