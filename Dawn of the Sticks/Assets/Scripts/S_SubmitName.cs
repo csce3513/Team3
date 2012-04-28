@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 using System;
 using System.Text;
 using System.IO;
@@ -15,7 +15,6 @@ public class S_SubmitName : MonoBehaviour
 	bool submit = false;
 	static private string Name;
 	static private float score;
-
 	static public string UpdateName(string name)
 	{
 		Name = name;
@@ -27,6 +26,7 @@ public class S_SubmitName : MonoBehaviour
 		score = S_Player.playerscore;//<---------Change S_Player.zombieskilled to whatever variable that you want it to be score
 		return score;
 	}
+
 	// Use this for initialization
 	void Start ()
 	{
@@ -43,51 +43,50 @@ public class S_SubmitName : MonoBehaviour
 		                       0.1f*Screen.width , 0.04f*Screen.height), "SUBMIT"))
 		{
 			submit = true;
+			
 		}
+	}
+	void add15charName()
+	{
+		string temp;
+		//Only allow 15 characters of name
+		if(textInformation.Length > 15)
+			temp = textInformation.Substring(0,15); 
+		else
+			temp = textInformation; 
+		UpdateName(temp);
+		
 	}
 	// Update is called once per frame
 	void Update ()
 	{
 		if(submit)
 		{
-			//Delete the existing file that have the same file name
-			if(File.Exists(path + fileName) && File.Exists(path + fileScore))
+			if(File.Exists(path + fileName))
 			{
+				//Approach new method of writing text to file
 				using(StreamWriter fs = File.AppendText(path + fileName))
 				{
-					string temp;
-					//Only allow 15 characters of name
-					if(textInformation.Length > 15)
-						temp = textInformation.Substring(0,15); 
-					else
-						temp = textInformation; 
-					UpdateName(temp);
-				    fs.WriteLine(temp);		
+					add15charName();
+				    fs.WriteLine(Name);	
+					fs.WriteLine(UpdateScore().ToString());
 				}
-				using(StreamWriter fs = File.AppendText(path + fileScore))
-				{
-					string temp = UpdateScore().ToString(); 
-				    fs.WriteLine(temp);			
-				}
-
-				Application.LoadLevel("MainMenu");
 				submit = false;
 			}
 			else
 			{
+				//Old method of writing text to file
 				using(FileStream fs = File.Create(path + fileName))
 				{
-					string temp = textInformation + "\n"; 
-					UpdateName(temp);
-				    AddText(fs, temp);		
-				}
-				using(FileStream fs = File.Create(path + fileScore))
-				{
-					string temp = UpdateScore().ToString() + "\n"; 
-				    AddText(fs, temp);		
+					add15charName();
+				    AddText(fs, Name);	
+					AddText(fs, UpdateScore().ToString()+"\n");
 				}
 				submit = false;
 			}
+			if(File.Exists(path + fileScore))
+				File.Delete(path+fileScore);
+			Application.LoadLevel("MainMenu");
 		}
 	}
 	public void AddText(FileStream fs, string value)
