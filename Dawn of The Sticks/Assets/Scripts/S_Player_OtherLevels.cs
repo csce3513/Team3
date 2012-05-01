@@ -15,6 +15,7 @@ public class S_Player_OtherLevels : MonoBehaviour {
 	private float reloadtime;
 	private float wallhit;
 	private float floorhit;
+	private float downtime;
 	private float elevhit;
 	private float doorhit;
 	private float dooropen;
@@ -35,33 +36,37 @@ public class S_Player_OtherLevels : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		DoorOpen.renderer.enabled = false;
 		state = State.Playing;
 		//S_PlayerZombieCollision.state = S_PlayerZombieCollision.State.Playing;
-		S_Player.currentlevel = 2;
-		S_Player.ammoleft = 30;
-		S_Player.playerlives = 3;
+		/*S_Player.currentlevel = 4;
+		S_Player.ammoleft = 50;
+		S_Player.currentgun = 3;
+		S_Player.playerlives = 3;*/
 		play = GameObject.FindGameObjectWithTag("Player");
 		reloadtime = 0;
 		climbdirection = 0;
+		if(S_Player.currentlevel == 4)
+		{
+			dooropen = 1;
+		}
+		else
+		{
+		DoorOpen.renderer.enabled = false;
 		dooropen = 0;
-		S_Player.zombieskilled = 0;
+		}
+		//S_Player.zombieskilled = 0;
 		floortime = 0;
 		floorhit = 1;
 		
-		if (S_Player.currentlevel == 2)
-		{
-		S_Player.zombiestokill = 15;
-		}
-		else if(S_Player.currentlevel == 3)
-		{
-			S_Player.zombiestokill = 20;
-		}
-		
-		S_Player.bulletdirection = 1;
-		
 		//assigning the player the position of the player in the lower left hand position
-		transform.position = new Vector3(-5.8f, -1.64f, transform.position.z);
+		if (S_Player.currentlevel == 4)
+		{
+		transform.position = new Vector3(-5f, -1.65f, transform.position.z);
+		}
+		else
+		{
+		transform.position = new Vector3(-5.8f, -1.65f, transform.position.z);
+		}
 		
 	}
 	
@@ -107,12 +112,14 @@ public class S_Player_OtherLevels : MonoBehaviour {
 		
 		if (Input.GetAxis("Horizontal") != 0 || Input.GetAxis("Vertical") != 0)
 		{
-				if (wallhit == 1 && amttomove > 0)
+				Debug.Log(amttomove);
+				
+				if (wallhit == 1 && S_Player.bulletdirection == 1)
 				{
 					amttomove = 0;
 				}
 				
-				else if (wallhit == 2 && amttomove < 0)
+				else if (wallhit == 2 && S_Player.bulletdirection == 2)
 				{
 					amttomove = 0;
 				}
@@ -124,21 +131,45 @@ public class S_Player_OtherLevels : MonoBehaviour {
 				
 				if(doorenter > 0 && doorhit == 1 && dooropen == 1)
 				{
+					if(S_Player.currentlevel != 4)
+					{
 					Application.LoadLevel("Store");
+					}
+					else
+					{
+						Application.LoadLevel("WinningScreen");
+					}
+						
 				}
 				
-				if(doorenter < 0)
+				Debug.Log(downtime);
+				
+				if(doorhit < 0 && downtime < 0.5f)
 				{
-					floortime = 0;
+				downtime += Time.deltaTime;
+				floortime = 0;
 				}
+				
+				if(floorhit == 1)
+				{
+					downtime = 0;
+				}
+				
+				Debug.Log(downtime);
 				
 				transform.Translate(Vector3.forward * amttomove);
 		}
 		
+			
+			
 		//move the camera
 		GameObject maincam = Camera.main.gameObject;
+		GameObject light = GameObject.Find("Directional light");
 		maincam.transform.position = new Vector3(transform.position.x, transform.position.y, maincam.transform.position.z);
-		
+			if(S_Player.currentlevel == 4)
+			{
+				light.transform.position = new Vector3(transform.position.x, light.transform.position.y, light.transform.position.z);
+			}
 		
 		//shoot
 		if (Input.GetKeyDown("space") && S_Player.currentammo > 0)
@@ -146,7 +177,15 @@ public class S_Player_OtherLevels : MonoBehaviour {
 			shot = ShootGun(S_Player.firerate);
 			if (shot == 1)
 			{
+					if(S_Player.currentgun != 3)
+					{
 				Instantiate(P_Bullet, transform.position, Quaternion.identity);
+					}
+					else
+					{
+						StartCoroutine(ShootShotgun());
+					}
+						
 			}
 		}
 		
@@ -191,7 +230,7 @@ public class S_Player_OtherLevels : MonoBehaviour {
 	{
 		float bulletshot;
 		//creates the bullet
-			if ((firing > .2f) && (S_Player.currentammo > 0))
+			if ((firing > S_Player.rateofgun) && (S_Player.currentammo > 0))
 			{
 			S_Player.firerate = 0;
 			bulletshot = 1;
@@ -308,8 +347,8 @@ public class S_Player_OtherLevels : MonoBehaviour {
 		{
 			gameObject.transform.parent = null;
 			elevhit = 0;
-			transform.position = new Vector3(transform.position.x, transform.position.y, 0);
-			transform.localScale= new Vector3(50, 25, 8);
+			//transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+			//transform.localScale= new Vector3(50, 25, 8);
 		}
 		
 		if (otherObject.tag	== "Zombie" && state == State.Playing)
@@ -328,10 +367,25 @@ public class S_Player_OtherLevels : MonoBehaviour {
 		
 		if(otherObject.tag == "Door")
 		{
+			if(S_Player.currentlevel == 4)
+			{
+				Debug.Log("Left");
+				Application.LoadLevel("Win Screen");
+			}
 			doorhit = 0;
 		}
 		
 		}
+	IEnumerator ShootShotgun()
+	{
+		Vector3 pos = new Vector3(transform.position.x, transform.position.y + .2f, 0);
+		Instantiate(P_Bullet, transform.position, Quaternion.identity);
+		yield return new WaitForSeconds(0.05f);
+		Instantiate(P_Bullet, pos, Quaternion.identity);
+		pos = new Vector3(pos.x, transform.position.y - .2f, pos.z);
+		yield return new WaitForSeconds(0.05f);
+		Instantiate(P_Bullet, pos, Quaternion.identity);
+	}
 	
 	IEnumerator DestroyPlayer()
 	{

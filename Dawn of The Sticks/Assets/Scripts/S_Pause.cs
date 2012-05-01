@@ -16,6 +16,7 @@ public class S_Pause : MonoBehaviour {
 			if(GUI.Button(new Rect(0.43f*Screen.width,0.45f*Screen.height,
 		                       150,20), "Main Menu"))
 			{
+				Time.timeScale = 1f;
 				Application.LoadLevel("MainMenu");
 			}
 		}

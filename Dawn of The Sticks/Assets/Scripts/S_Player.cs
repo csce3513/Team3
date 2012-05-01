@@ -17,6 +17,8 @@ public class S_Player : MonoBehaviour {
 	private float reloadtime;
 	static public float climbdirection;
 	static public float firerate;
+	static public float currentgun;
+	static public float rateofgun;
 	static public GameObject play;
 	static public float reloadwanted;
 	static public float bulletdirection;
@@ -34,6 +36,8 @@ public class S_Player : MonoBehaviour {
 		Initial();
 		play = GameObject.FindGameObjectWithTag("Player");
 		float originaldirection = 1;
+		currentgun = 1;
+		rateofgun = .2f;
 		currentlevel = 1;
 		reloadtime = 0;
 		climbdirection = 0;
@@ -214,7 +218,7 @@ public class S_Player : MonoBehaviour {
 				}
 				transform.Translate(Vector3.up * verticalmov);
 				
-					if(transform.position.y > 4.55f && transform.position.y <= 4.6f)
+					if(transform.position.y > 4.55f)
 						{
 						transform.position = new Vector3(transform.position.x, 4.55f, 0);
 						}
@@ -309,7 +313,7 @@ public class S_Player : MonoBehaviour {
 	{
 		float bulletshot;
 		//creates the bullet
-			if ((firing > .2f) && (currentammo > 0))
+			if ((firing > rateofgun) && (currentammo > 0))
 			{
 			firerate = 0;
 			bulletshot = 1;

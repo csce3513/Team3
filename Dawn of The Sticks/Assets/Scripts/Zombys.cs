@@ -10,7 +10,9 @@ public class Zombys : MonoBehaviour {
 	public float health = 1;
 	private float direction;
 	private GameObject player;
+	public GameObject zombrend;
 	private Random rand;
+	private float zombieposx;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +22,11 @@ public class Zombys : MonoBehaviour {
 		//default direction 1 (right)
 		direction = 1;
 		getstartdoor();
+		
+		if(S_Player.currentlevel == 4)
+		{
+		zombrend.renderer.enabled = false;
+		}
 		
 		transform.position = new Vector3(startx, starty, 0);
 		
@@ -44,6 +51,39 @@ public class Zombys : MonoBehaviour {
 		}
 		}
 		
+		if(S_Player.currentlevel > 1)
+		{
+			if((transform.position.x > GameObject.FindGameObjectWithTag("WallR").transform.position.x) || (transform.position.x < GameObject.FindGameObjectWithTag("WallL").transform.position.x))
+			{
+				transform.Rotate(0,180,0);
+				direction = direction * -1f;
+			}
+		}
+		
+		if(S_Player.currentlevel ==4)
+		{
+			zombieposx = transform.position.x - GameObject.FindGameObjectWithTag("Player").transform.position.x;
+			if(zombieposx <= 3 && zombieposx >= -3f)
+			{
+				zombrend.renderer.enabled = true;
+			}
+			else
+			{
+				zombrend.renderer.enabled = false;
+			}
+			
+			if(zombieposx < 0 && direction == -1f)
+			{
+				direction = 1;
+				transform.Rotate(0,180,0);
+			}
+			else if(zombieposx > 0 && direction == 1)
+			{
+				direction = -1f;
+				transform.Rotate(0,180,0);
+			}
+		}
+		
 		//move zombie toward the player
 		moveZomby(direction);
 	
@@ -58,8 +98,17 @@ public class Zombys : MonoBehaviour {
 		{
 			startdoor = Random.Range(1,10);
 		}
-		sety(startdoor);
+		else if(S_Player.currentlevel == 3)
+		{
+			startdoor = Random.Range(1,11);
+		}
+		else if(S_Player.currentlevel == 5)
+		{
+			startdoor = Random.Range(1,3);
+			Debug.Log(startdoor);
+		}
 		setx(startdoor);
+		sety(startdoor);
 		return 1;
 	}
 	
@@ -74,28 +123,44 @@ public class Zombys : MonoBehaviour {
 			break;
 		case 2:
 			starty = -2.5f;
+			if(startx < 0)
+			{
+			startx = startx * -1;
+			}
 			break;
 		case 3:
 			starty = 1f;
+			if(startx < 0)
+			{
+			startx = startx * -1;
+			}
 			break;
 		case 4:
 			starty = 4.55f;
+			if(startx < 0)
+			{
+			startx = startx * -1;
+			}
 			break;
 		default:
 			starty = -2.5f;
 			break;
 		}
 		}
-		else if (S_Player.currentlevel == 2)
+		else if (S_Player.currentlevel == 2 || S_Player.currentlevel == 3)
 		{
 			starty = GameObject.Find("Door" + whichdoor).transform.position.y;
+		}
+		else if(S_Player.currentlevel == 4)
+		{
+			starty = -1.65f;
 		}
 		
 		return starty;
 	}		
 	
 	public float setx(int whichdoor) {
-		if((S_Player.currentlevel == 1 && whichdoor == 1) || (S_Player.currentlevel == 2 && whichdoor == 1 || whichdoor == 2 || whichdoor == 3 || whichdoor == 4))
+		if((S_Player.currentlevel == 1 && whichdoor == 1) || (S_Player.currentlevel == 2  && whichdoor <= 4) || (S_Player.currentlevel == 3 && whichdoor <= 5))
 		{
 			if (S_Player.currentlevel == 1)
 			{
@@ -107,6 +172,22 @@ public class Zombys : MonoBehaviour {
 			}
 			direction = 1;
 		}
+			
+		else if(S_Player.currentlevel == 4)
+			{
+				if (whichdoor == 1)
+				{
+					startx = GameObject.FindGameObjectWithTag("Player").transform.position.x - 10;
+					direction = 1f;
+				}
+				else
+				{
+					startx = GameObject.FindGameObjectWithTag("Player").transform.position.x + 10;
+					direction = -1f;
+					transform.Rotate(0,180,0);
+				}
+			}
+			
 		else
 		{
 			if (S_Player.currentlevel == 1)
@@ -126,7 +207,7 @@ public class Zombys : MonoBehaviour {
 	public void moveZomby(float dir) {
 		
 		//keep zombie inside the map
-		if(transform.position.x < -6f && transform.position.x > 6f);
+		if(transform.position.x < -6f && transform.position.x > 6f && S_Player.currentlevel == 1);
 			//do nothing
 		else
 		{
@@ -180,6 +261,11 @@ public class Zombys : MonoBehaviour {
 				direction = 1;
 				transform.Rotate(0,180,0);
 			}
+		}
+		else if(otherObject.tag == "Zombieblock")
+		{
+			transform.Rotate(0,180,0);
+			direction = direction * -1f;
 		}
 	}
 	

@@ -47,6 +47,18 @@ public class S_Store : MonoBehaviour {
 	{
 		//code to load level 2
 			S_Player.currentlevel += 1;
+			S_Player.zombieskilled = 0;
+		
+		if (S_Player.currentlevel == 2)
+		{
+		S_Player.zombiestokill = 15;
+		}
+		else if(S_Player.currentlevel == 3)
+		{
+			S_Player.zombiestokill = 20;
+		}
+		
+		S_Player.bulletdirection = 1;
 			Application.LoadLevel("Level" + S_Player.currentlevel);
 			return true;
 	}

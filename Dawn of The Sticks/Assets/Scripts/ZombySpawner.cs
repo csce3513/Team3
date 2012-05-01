@@ -27,5 +27,17 @@ public class ZombySpawner : MonoBehaviour {
 			zombiecount++;
 			zombietime = 0;
 		}
+		else if(S_Player.currentlevel == 3 && zombietime > 1&& zombiecount < 30)
+		{
+			Instantiate(zombie);
+			zombiecount++;
+			zombietime = 0;
+		}
+		else if(S_Player.currentlevel == 4 && zombietime >.5 && zombiecount < 40)
+		{
+			Instantiate(zombie);
+			zombiecount++;
+			zombietime = 0;
+		}
 	}
 }
