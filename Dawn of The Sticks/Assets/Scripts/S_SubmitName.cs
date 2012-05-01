@@ -30,7 +30,9 @@ public class S_SubmitName : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		path = Application.dataPath + "/High Scores";
+		path = "C:/Users/Public/Public Documents"; 
+			//"/Users/Shared";
+			//Application.dataPath + "/High Scores";
 		fileName = "/fileName.txt";
 		fileScore = "/fileScore.txt";
 		textInformation = "";
@@ -75,12 +77,16 @@ public class S_SubmitName : MonoBehaviour
 			}
 			else
 			{
+				StreamWriter wr = File.AppendText(path + fileName);
 				//Old method of writing text to file
 				using(FileStream fs = File.Create(path + fileName))
 				{
+					StreamWriter aa = File.AppendText(path + fileName);
 					add15charName();
-				    AddText(fs, Name);	
-					AddText(fs, UpdateScore().ToString()+"\n");
+					aa.WriteLine(Name);	
+					aa.WriteLine(UpdateScore().ToString());
+				    //AddText(fs, Name);	
+					//AddText(fs, UpdateScore().ToString()+"\n");
 				}
 				submit = false;
 			}

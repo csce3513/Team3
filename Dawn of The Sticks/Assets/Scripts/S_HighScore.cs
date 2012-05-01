@@ -32,7 +32,8 @@ public class S_HighScore : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
-		path = Application.dataPath + "/High Scores";
+		path = "C:/Users/Public/Public Documents";
+			//Application.dataPath + "/High Scores";
 		fileName = "/fileName.txt";
 		fileScore = "/fileScore.txt";
 		textInformation = "";

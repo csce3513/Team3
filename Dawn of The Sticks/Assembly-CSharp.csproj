@@ -45,14 +45,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\BackButton.cs" />
+     <Compile Include="Assets\Scripts\ChangeTextColor.cs" />
      <Compile Include="Assets\Scripts\HeroMenu.cs" />
      <Compile Include="Assets\Scripts\HeroSelection.cs" />
      <Compile Include="Assets\Scripts\MenuObject.cs" />
      <Compile Include="Assets\Scripts\S_Bullet.cs" />
      <Compile Include="Assets\Scripts\S_Charac_Next.cs" />
+     <Compile Include="Assets\Scripts\S_Continue.cs" />
      <Compile Include="Assets\Scripts\S_Credits.cs" />
      <Compile Include="Assets\Scripts\S_Game_Over.cs" />
      <Compile Include="Assets\Scripts\S_HUD.cs" />
+     <Compile Include="Assets\Scripts\S_Head.cs" />
      <Compile Include="Assets\Scripts\S_HighScore.cs" />
      <Compile Include="Assets\Scripts\S_Pause.cs" />
      <Compile Include="Assets\Scripts\S_Player.cs" />

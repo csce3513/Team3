@@ -20,26 +20,31 @@ public class S_HUD : MonoBehaviour {
 		{
 			transform.position = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x + 1, GameObject.FindGameObjectWithTag("Player").transform.position.y + 1.7f, 1);
 			GetComponent<TextMesh>().text = "Score: " + S_Player.playerscore;
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
 		}
 		else if (Cash)
 		{
 			transform.position = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x + 1, GameObject.FindGameObjectWithTag("Player").transform.position.y + 1.4f, 1);
 			GetComponent<TextMesh>().text = "Cash: " + S_Player.cash;
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
 		}
 		else if (Lives)
 		{
 			transform.position = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x + 1, GameObject.FindGameObjectWithTag("Player").transform.position.y + 0.8f, 1);
 			GetComponent<TextMesh>().text = "Lives: " + S_Player.playerlives;
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
 		}
 		else if (Ammo)
 		{
 			transform.position = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x + 1, GameObject.FindGameObjectWithTag("Player").transform.position.y + 1.1f, 1);
 			GetComponent<TextMesh>().text = "Ammo: " + S_Player.currentammo + "/" + S_Player.ammoleft;
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
 		}
 		else if (Zombies)
 		{
 			transform.position = new Vector3(GameObject.FindGameObjectWithTag("Player").transform.position.x + 1, GameObject.FindGameObjectWithTag("Player").transform.position.y + 0.5f, 1);
 			GetComponent<TextMesh>().text = "Zombies: " + S_Player.zombieskilled + "/" + S_Player.zombiestokill;
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
 		}
 	}
 }

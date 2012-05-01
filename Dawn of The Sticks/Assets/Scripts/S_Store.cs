@@ -8,6 +8,19 @@ public class S_Store : MonoBehaviour {
 	public bool isLives = false;
 	public bool isGun1 = false;
 	public bool isnextLevel = false;
+	
+	void Start()
+	{
+		if (isBack)
+		{
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
+		}
+		else if (isnextLevel)
+		{
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
+		}
+	}
+	
 	void OnMouseOver()
 	{
 		renderer.material.color = Color.red;
@@ -24,6 +37,7 @@ public class S_Store : MonoBehaviour {
 		if (isBack)
 		{
 			Application.LoadLevel("MainMenu");
+			GetComponent<TextMesh>().renderer.material.color = Color.blue;
 		}
 		else if (isAmmo)
 		{

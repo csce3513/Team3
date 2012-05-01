@@ -9,6 +9,7 @@ public class S_Player : MonoBehaviour {
 	public GameObject Reload_Sound;
 	private float shot;
 	static public float currentammo;
+	static public string alive;
 	static public float ammoleft;
 	static public float currentlevel;
 	static public float cash;
@@ -37,6 +38,7 @@ public class S_Player : MonoBehaviour {
 		play = GameObject.FindGameObjectWithTag("Player");
 		float originaldirection = 1;
 		currentgun = 1;
+		alive = "alive";
 		rateofgun = .2f;
 		currentlevel = 1;
 		reloadtime = 0;
@@ -56,6 +58,7 @@ public class S_Player : MonoBehaviour {
 	{
 		if(S_PlayerZombieCollision.state != S_PlayerZombieCollision.State.Death)
 		{
+			alive = "alive";
 		float amttomove = Input.GetAxis("Horizontal") * playerSpeed * Time.deltaTime;
 		float laddermove = Input.GetAxis("Vertical") * ladderSpeed * Time.deltaTime;
 		
@@ -124,6 +127,11 @@ public class S_Player : MonoBehaviour {
 		}
 		
 	  }
+		
+		else
+		{
+			alive = "dead";
+		}
 	}
 	
 	void PlayerMovement(float horizontalmov, float verticalmov, float falling)

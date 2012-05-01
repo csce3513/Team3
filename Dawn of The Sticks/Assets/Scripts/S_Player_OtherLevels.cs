@@ -42,6 +42,7 @@ public class S_Player_OtherLevels : MonoBehaviour {
 		S_Player.ammoleft = 50;
 		S_Player.currentgun = 3;
 		S_Player.playerlives = 3;*/
+		S_Player.alive = "alive";
 		play = GameObject.FindGameObjectWithTag("Player");
 		reloadtime = 0;
 		climbdirection = 0;
@@ -75,6 +76,7 @@ public class S_Player_OtherLevels : MonoBehaviour {
 	{
 		if(state != State.Death)
 		{
+			S_Player.alive = "alive";
 			floortime += Time.deltaTime;
 		amttomove = Input.GetAxis("Horizontal") * playerSpeed * Time.deltaTime;
 		doorenter = Input.GetAxis("Vertical") * playerSpeed * Time.deltaTime;
@@ -144,9 +146,8 @@ public class S_Player_OtherLevels : MonoBehaviour {
 				
 				Debug.Log(downtime);
 				
-				if(doorhit < 0 && downtime < 0.5f)
+				if(doorenter < 0)
 				{
-				downtime += Time.deltaTime;
 				floortime = 0;
 				}
 				
@@ -155,7 +156,7 @@ public class S_Player_OtherLevels : MonoBehaviour {
 					downtime = 0;
 				}
 				
-				Debug.Log(downtime);
+				Debug.Log(floortime);
 				
 				transform.Translate(Vector3.forward * amttomove);
 		}
@@ -221,6 +222,11 @@ public class S_Player_OtherLevels : MonoBehaviour {
 		}
 		
 	  }
+		
+		else
+		{
+			S_Player.alive = "dead";
+		}
 	}
 	
 	
@@ -316,6 +322,12 @@ public class S_Player_OtherLevels : MonoBehaviour {
 				gameObject.transform.parent = null;
 				floorhit = 1;
 			}
+		}
+		
+		else if(otherObject.tag == "Bottom")
+		{
+			gameObject.transform.parent = null;
+			floorhit = 1;
 		}
 		
 		else if(otherObject.tag == "Elevator" && (otherObject.gameObject.transform.position.y < (transform.position.y - 1.36f)))

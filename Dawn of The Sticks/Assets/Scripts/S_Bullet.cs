@@ -33,10 +33,10 @@ public class S_Bullet : MonoBehaviour {
 		
 		timealive += Time.deltaTime;
 		
-		if(timealive > 1f)
+		if(timealive > 2f)
 			Destroy(gameObject);
 		
-		if (mytransform.position.x > 20f || mytransform.position.x < -20f)
+		if (mytransform.position.x > 50f || mytransform.position.x < -50f)
 			Destroy(this.gameObject);
 		
 	}
@@ -50,9 +50,13 @@ public class S_Bullet : MonoBehaviour {
 				S_Player.playerscore += 100;
 			
 			if (S_Player.currentlevel == 1)
-				S_Player.cash += 10;
-			else if (S_Player.currentlevel == 2)
 				S_Player.cash += 20;
+			else if (S_Player.currentlevel == 2)
+				S_Player.cash += 40;
+			else if (S_Player.currentlevel == 3)
+				S_Player.cash += 50;
+			else if (S_Player.currentlevel == 4)
+				S_Player.cash += 50;
 			
 			Destroy(this.gameObject);
 
