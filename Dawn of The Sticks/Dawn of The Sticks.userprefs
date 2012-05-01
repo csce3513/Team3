@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/S_Player_OtherLevels.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/S_HighScore.cs">
     <Files>
-      <File FileName="Assets/Scripts/S_Player_OtherLevels.cs" Line="312" Column="49" />
-      <File FileName="Assets/Tests/Store_Test.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/S_HighScore.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +11,7 @@
             <Node name="References" expanded="True" />
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="S_Player_OtherLevels.cs" selected="True" />
+                <Node name="S_HighScore.cs" selected="True" />
               </Node>
               <Node name="SharpUnit" expanded="True" />
               <Node name="Tests" expanded="True" />
