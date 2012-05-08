@@ -11,10 +11,13 @@ Welcome to Github of Team3
 * Zach McKnight                     *
 * Chris Overcash                    *
 *************************************
-Updated:
-First release:
+Game crief discription:
 Main menu
 Character selection
 Character can move, climb, shoot and reload.
-Added Background, music background, character picture, shooting sound and reload sound.
+Character have avatar while playing.
+Background, music background, character picture, shooting sound and reload sound.
+Store, gun, bullets, life.
+Submit user name.
+Names and scores are sorted and saved. Users can load again when they run the game again.
 
